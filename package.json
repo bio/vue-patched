@@ -1,8 +1,8 @@
 {
   "name": "vue-patched",
-  "version": "2.7.16-patch.1",
+  "version": "2.7.16-patch.2",
   "packageManager": "pnpm@8.9.2",
-  "description": "Patched Vue 2.7.16 to fix XSS (CVE-2024-6783) security vulnerability.",
+  "description": "Patched Vue 2.7.16 to fix XSS (CVE-2024-6783) and ReDoS (CVE-2024-9506) security vulnerabilities.",
   "main": "dist/vue.runtime.common.js",
   "module": "dist/vue.runtime.esm.js",
   "unpkg": "dist/vue.js",
@@ -75,7 +75,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vue.git"
+    "url": "git+https://github.com/bio/vue-patched.git"
   },
   "keywords": [
     "vue"
@@ -83,9 +83,9 @@
   "author": "Evan You",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vuejs/vue/issues"
+    "url": "https://github.com/bio/vue-patched/issues"
   },
-  "homepage": "https://github.com/vuejs/vue#readme",
+  "homepage": "https://github.com/bio/vue-patched#readme",
   "dependencies": {
     "@vue/compiler-sfc": "workspace:*",
     "csstype": "^3.1.0"
