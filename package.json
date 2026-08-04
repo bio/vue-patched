@@ -1,8 +1,8 @@
 {
-  "name": "vue",
-  "version": "2.7.16",
+  "name": "vue-patched",
+  "version": "2.7.16-patch.1",
   "packageManager": "pnpm@8.9.2",
-  "description": "Reactive, component-oriented view layer for modern web interfaces.",
+  "description": "Patched Vue 2.7.16 to fix XSS (CVE-2024-6783) security vulnerability.",
   "main": "dist/vue.runtime.common.js",
   "module": "dist/vue.runtime.esm.js",
   "unpkg": "dist/vue.js",

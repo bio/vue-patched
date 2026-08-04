@@ -31,10 +31,10 @@ function transformNode(el: ASTElement, options: CompilerOptions) {
 
 function genData(el: ASTElement): string {
   let data = ''
-  if (el.staticStyle) {
+  if (Object.prototype.hasOwnProperty.call(el, 'staticStyle')) {
     data += `staticStyle:${el.staticStyle},`
   }
-  if (el.styleBinding) {
+  if (Object.prototype.hasOwnProperty.call(el, 'styleBinding')) {
     data += `style:(${el.styleBinding}),`
   }
   return data

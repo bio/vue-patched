@@ -28,10 +28,10 @@ function transformNode(el: ASTElement, options: CompilerOptions) {
 
 function genData(el: ASTElement): string {
   let data = ''
-  if (el.staticClass) {
+  if (Object.prototype.hasOwnProperty.call(el, 'staticClass')) {
     data += `staticClass:${el.staticClass},`
   }
-  if (el.classBinding) {
+  if (Object.prototype.hasOwnProperty.call(el, 'classBinding')) {
     data += `class:${el.classBinding},`
   }
   return data
