@@ -1,3 +1,21 @@
+## [2.7.16-patch.2](https://github.com/bio/vue-patched/compare/v2.7.16-patch.1...v2.7.16-patch.2) (2026-08-04)
+
+
+### Bug Fixes
+
+* mitigate ReDoS in HTML parser stacked-tag regex ([CVE-2024-9506](https://nvd.nist.gov/vuln/detail/CVE-2024-9506)) ([2801047](https://github.com/bio/vue-patched/commit/2801047b9cdd3490609b9d5bd4e090d389199aa7))
+
+
+
+## [2.7.16-patch.1](https://github.com/bio/vue-patched/compare/v2.7.16...v2.7.16-patch.1) (2026-08-04)
+
+
+### Bug Fixes
+
+* harden class/style codegen against prototype pollution XSS ([CVE-2024-6783](https://nvd.nist.gov/vuln/detail/CVE-2024-6783)) ([caf1d4a](https://github.com/bio/vue-patched/commit/caf1d4af3f3cb58fa5889009205b64c11c73415b))
+
+
+
 ## [2.7.16 Swan Song](https://github.com/vuejs/vue/compare/v2.7.16-beta.2...v2.7.16) (2023-12-24)
 
 
