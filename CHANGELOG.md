@@ -1,3 +1,12 @@
+## [2.7.16-patch.3](https://github.com/bio/vue-patched/compare/v2.7.16-patch.2...v2.7.16-patch.3) (2026-08-05)
+
+
+### Bug Fixes
+
+* publish `@vue/compiler-sfc` as `2.7.16` instead of unresolved `workspace:*` so npm/yarn/pnpm can install the package
+
+
+
 ## [2.7.16-patch.2](https://github.com/bio/vue-patched/compare/v2.7.16-patch.1...v2.7.16-patch.2) (2026-08-04)
 
 

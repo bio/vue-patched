@@ -8,24 +8,24 @@ Vue 2 is end-of-life and no longer receives official security updates. This pack
 
 ## Installation
 
-Installs under the original `vue` name so `require('vue')` / `import Vue from 'vue'` and peer dependencies keep working.
+Installs under the original `vue` name so `import Vue from 'vue'` / `require('vue')` and peer dependencies keep working.
 
 #### npm
 
 ```sh
-npm install vue@npm:vue-patched@2.7.16-patch.2
+npm install vue@npm:vue-patched@2.7.16-patch.3
 ```
 
 #### pnpm
 
 ```sh
-pnpm add vue@npm:vue-patched@2.7.16-patch.2
+pnpm add vue@npm:vue-patched@2.7.16-patch.3
 ```
 
 #### Yarn
 
 ```sh
-yarn add vue@npm:vue-patched@2.7.16-patch.2
+yarn add vue@npm:vue-patched@2.7.16-patch.3
 ```
 
 ## Related
@@ -35,11 +35,11 @@ If you compile `.vue` SFCs or templates at build time (`vue-loader`, etc.), also
 ## CDN / full build
 
 ```html
-<script src="https://unpkg.com/vue-patched@2.7.16-patch.2/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-patched@2.7.16-patch.3/dist/vue.js"></script>
 ```
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/vue-patched@2.7.16-patch.2/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-patched@2.7.16-patch.3/dist/vue.js"></script>
 ```
 
 ## License

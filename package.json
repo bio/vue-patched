@@ -1,6 +1,6 @@
 {
   "name": "vue-patched",
-  "version": "2.7.16-patch.2",
+  "version": "2.7.16-patch.3",
   "packageManager": "pnpm@8.9.2",
   "description": "Patched Vue 2.7.16 to fix XSS (CVE-2024-6783) and ReDoS (CVE-2024-9506) security vulnerabilities.",
   "main": "dist/vue.runtime.common.js",
@@ -87,7 +87,7 @@
   },
   "homepage": "https://github.com/bio/vue-patched#readme",
   "dependencies": {
-    "@vue/compiler-sfc": "workspace:*",
+    "@vue/compiler-sfc": "2.7.16",
     "csstype": "^3.1.0"
   },
   "devDependencies": {
